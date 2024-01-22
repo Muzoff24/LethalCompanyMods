@@ -6,9 +6,9 @@
     </tags>
     <strings>
         <UINotes text="Заметки: " />
-        <UICauseOfDeath text="Причина смерти: " />
+        <UICauseOfDeath text="Уєбало того що: " />
 
-        <FunnyNote text="Самый тупой болван." />
+        <FunnyNote text="Приїхав у Вашківці." />
         <FunnyNote text="Самый милый сотрудник." />
         <FunnyNote text="Получил больше веселья чем другие." />
         <FunnyNote text="Получил меньше веселья чем другие." />
@@ -17,22 +17,22 @@
         <FunnyNote text="Ушиб палец на ноге." />
         <FunnyNote text="Скорее всего, умрёт в следующий раз." />
         <FunnyNote text="Вряд ли умрёт в следующий раз." />
-        <FunnyNote text="Не любит курящих." />
+        <FunnyNote text="Загубив подік." />
         <FunnyNote text="Командный игрок." />
         <FunnyNote text="Настоящий мусорщик." />
         <FunnyNote text="Съел больше всего закусок." />
         <FunnyNote text="Прошел GO и получил 200$" />
         <FunnyNote text="Нажрался в пятницу вечером." />
-        <FunnyNote text="Я думаю, что это серийный убийца." />
+        <FunnyNote text="Я думаю, что это черпак." />
         <FunnyNote text="Совершенно ничем не примечателен." />
-        <FunnyNote text="Давненько не звонил матери." />
-        <FunnyNote text="Имеет IP-адрес 127.0.0.1." />
-        <FunnyNote text="Тайно ящерка." />
+        <FunnyNote text="Давненько не звонил матери Гавриша." />
+        <FunnyNote text="Имеет IP-адрес 31.134.118.82." />
+        <FunnyNote text="Зубровка до добра не доводить." />
 
         <DeathBludgeoning text="Забит до смерти." />
 
-        <DeathGravity text="Разбился насмерть." />
-        <DeathGravity text="Упал с обрыва." />
+        <DeathGravity text="Не запаркурив." />
+        <DeathGravity text="Випав з вікна." />
 
         <DeathBlast text="Взорвался." />
         <DeathBlast text="Ушёл с фейерверком." />
@@ -51,44 +51,45 @@
 
         <DeathDrowning text="Утонул." />
 
-        <DeathAbandoned text="Брошен своими коллегами." />
+        <DeathAbandoned text="Брошен своими коллегами, лох єбаний хапвщззхвпахвпзахпва." />
 
         <DeathElectrocution text="Убит электрическим током." />
 
         <DeathKicking text="Запинали до смерти." />
 
 
-        <DeathEnemyBracken text="Брекен свернул ему шею." />
-        <DeathEnemyBracken text="Проиграл Брекену в гляделки." />
+        <DeathEnemyBracken text="Побачив лунну походку." />
+        <DeathEnemyBracken text="Мака Джексон підар зі спини напав." />
 
-        <DeathEnemyEyelessDog text="Был съеден Слепой собакой." />
-        <DeathEnemyEyelessDog text="Был пойман за использование механической клавиатуры." />
+        <DeathEnemyEyelessDog text="Перданув у мікро." />
+        <DeathEnemyEyelessDog text="Єбать у неї зуби." />
         <DeathEnemyEyelessDog text="Чихнул рядом со Слепой собакой." />
 
-        <DeathEnemyForestGiant text="Проглочен Лесным гигантом." />
+        <DeathEnemyForestGiant text="Дерев'яний за спиною заспавнився." />
 
-        <DeathEnemyCircuitBees text="Был зажарен Электропчелами." />
+        <DeathEnemyCircuitBees text="Спизданути не получилось." />
+        <DeathEnemyCircuitBees text="Джмелі захуярили." />
 
-        <DeathEnemyGhostGirl text="Умер загадочной смертью." />
-        <DeathEnemyGhostGirl text="Потерял рассудок." />
-        <DeathEnemyGhostGirl text="Получил сильную головную боль." />
+        <DeathEnemyGhostGirl text="Побачив сестру гавриша." />
+        <DeathEnemyGhostGirl text="Не забрав з манікюру." />
+        <DeathEnemyGhostGirl text="Приїхав у Вашківці без зубровки." />
         <DeathEnemyGhostGirl text="???" />
 
         <DeathEnemyEarthLeviathan text="Проглочен Земным Левиафаном." />
 
-        <DeathEnemyBaboonHawk text="Был съеден Бабуиновым ястребом." />
-        <DeathEnemyBaboonHawk text="Был изуродован Бабуиновым ястребом." />
+        <DeathEnemyBaboonHawk text="Хуйово кричав." />
+        <DeathEnemyBaboonHawk text="Толпою гасят даже льва." />
 
-        <DeathEnemyJester text="Был изуродован Шутом." />
-        <DeathEnemyJester text="Стал объектом шутки Шута." />
-        <DeathEnemyJester text="Это всего лишь пранк, Бро!" />
-        <DeathEnemyJester text="Умер от кринжа." />
+        <DeathEnemyJester text="Покрутив хуйню." />
+        <DeathEnemyJester text="Не з'їбавси." />
+        <DeathEnemyJester text="На концерт нірвани поїхав" />
+        <DeathEnemyJester text="Гітаріст." />
 
-        <DeathEnemyCoilHead text="Был изуродован Пружиноголовым." />
-        <DeathEnemyCoilHead text="Неудачно моргнул." />
-        <DeathEnemyCoilHead text="Проиграл Пружиноголовому в гляделки." />
+        <DeathEnemyCoilHead text="Штири коілхеда." />
+        <DeathEnemyCoilHead text="Засунули пружину в сраку." />
+        <DeathEnemyCoilHead text="Анлак." />
 
-        <DeathEnemySnareFlea text="Был задушен Многоножкой." />
+        <DeathEnemySnareFlea text="Поїв морепродуктів." />
 
         <DeathEnemyHygrodere text="Был поглощен Гигродером." />
         <DeathEnemyHygrodere text="Потерялся в соусе." />
@@ -102,21 +103,23 @@
         <DeathEnemySporeLizard text="Был укушен Споровой ящерицей." />
         <DeathEnemySporeLizard text="Был отравлен Споровой ящерицей." />
 
-        <DeathEnemyBunkerSpider text="Попался в сети Бункерного паука." />
+        <DeathEnemyBunkerSpider text="Бодя павук з'їв." />
 
-        <DeathEnemyThumper text="Был съеден Тампером." />
-        <DeathEnemyThumper text="Был раздавлен Тампером." />
+        <DeathEnemyThumper text="Собака єбана." />
+        <DeathEnemyThumper text="Не розбайтили." />
 
         <DeathEnemyMaskedPlayerWear text="Надел Маску." />
         <DeathEnemyMaskedPlayerWear text="Никого не волновало, кем он был, пока не надел Маску." />
 
-        <DeathEnemyMaskedPlayerVictim text="Был убит коллегой в Маске." />
-        <DeathEnemyMaskedPlayerVictim text="Стал трагедией от рук Маски." />
+        <DeathEnemyMaskedPlayerVictim text="Єбані масочники." />
+        <DeathEnemyMaskedPlayerVictim text="Андрюха обісцяні вуха." />
+        <DeathEnemyMaskedPlayerVictim text="Мовчун зайшов." />
+        <DeathEnemyMaskedPlayerVictim text="Негри підари, повторюю, код негри підари." />
 
         <DeathEnemyNutcrackerKicked text="Был забит до смерти Щелкунчиком." />
-        <DeathEnemyNutcrackerKicked text="Щелкунчик расколол его орехи." />
+        <DeathEnemyNutcrackerKicked text="Нутрії загризли." />
 
-        <DeathEnemyNutcrackerShot text="Был застрелен Щелкунчиком." />
+        <DeathEnemyNutcrackerShot text="Косплей на Курт Кобейна." />
         <DeathEnemyNutcrackerShot text="Был не на том конце салюта из 21 калибра." />
 
         <DeathPlayerJetpackGravity text="Упал используя Джетпак." />
@@ -126,9 +129,9 @@
         <DeathPlayerJetpackBlast text="Взорвался используя Джетпак." />
         <DeathPlayerJetpackBlast text="Превратился в фейерверк." />
 
-        <DeathPlayerMurderMelee text="Был забит до смерти коллегой." />
+        <DeathPlayerMurderMelee text="Підари лопатою забили." />
         <DeathPlayerMurderMelee text="Стал жертвой убийства." />
-        <DeathPlayerMurderMelee text="Был убит." />
+        <DeathPlayerMurderMelee text="Захуярили." />
         <DeathPlayerMurderMelee text="Получил удар в спину от коллеги." />
 
         <DeathPlayerMurderShotgun text="Был застрелен коллегой." />
@@ -138,10 +141,10 @@
         <DeathPlayerMurderShotgun text="Получил 360 в лицо от коллеги." />
 
         <DeathPlayerQuicksand text="Застрял в зыбучих песках." />
-        <DeathPlayerQuicksand text="Утонул в зыбучих песках." />
+        <DeathPlayerQuicksand text="Засосали." />
 
         <DeathPlayerStunGrenade text="Был убит светошумовой гранатой." />
-        <DeathPlayerStunGrenade text="Стал жертвой убийства." />
+        <DeathPlayerStunGrenade text="Прибило осколками." />
 
         <DeathOtherDepositItemsDesk text="Получил понижение в должности." />
         <DeathOtherDepositItemsDesk text="Был отправлен в дисциплинарный отпуск." />
@@ -150,14 +153,16 @@
         <DeathOtherItemDropship text="Не мог дождаться своих товаров." />
         <DeathOtherItemDropship text="Был слишком нетерпелив с десантной капсулой." />
 
-        <DeathOtherLandmine text="Наступил на мину." />
+        <DeathOtherLandmine text="Проспорив." />
+        <DeathOtherLandmine text="Став Псом Патроном." />
 
-        <DeathOtherTurret text="Был застрелен турелью." />
+        <DeathOtherTurret text="Пришёл с ножём на перестрелку." />
 
-        <DeathOtherLightning text="Был поражен молнией." />
+        <DeathOtherLightning text="Хулі вона в комплексі б'є." />
+        <DeathOtherLightning text="Підняв ключ." />
 
-        <DeathUnknown text="Умер как-то." />
-        <DeathUnknown text="Самый искренний мертвец." />
-        <DeathUnknown text="Срок годности истек необъяснимым образом." />
+        <DeathUnknown text="Хуй з ним." />
+        <DeathUnknown text="Анлак." />
+        <DeathUnknown text="А я єбу як здох." />
     </strings>
 </base>
