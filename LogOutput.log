@@ -1,0 +1,215 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - Lethal Company (09.01.2024 18:43:09)
+[Info   :   BepInEx] Running under Unity v2022.3.9.15351836
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 27 plugins to load
+[Info   :   BepInEx] Loading [Lethal Company API 3.4.5]
+[Warning:Lethal Company API] 
+.____    _________           _____  __________ .___  
+|    |   \_   ___ \         /  _  \ \______   \|   | 
+|    |   /    \  \/        /  /_\  \ |     ___/|   | 
+|    |___\     \____      /    |    \|    |    |   | 
+|_______ \\______  /______\____|__  /|____|    |___| 
+        \/       \//_____/        \/                 
+                                                     
+[Info   :Lethal Company API] LC_API Starting up..
+[Info   :   BepInEx] Loading [Coroner 1.5.3]
+[Info   :   Coroner] Injecting patch into Landmine.SpawnExplosion...
+[Info   :   Coroner] Done.
+[Info   :   Coroner] Plugin Coroner (com.elitemastereric.coroner) is loaded!
+[Info   :   Coroner] Coroner Language Support: en
+[Error  :   Coroner] Coroner Error loading language data: Could not find file "G:\Lethal Company\BepInEx\plugins\Strings_en.xml"
+[Error  :   Coroner]   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.Xml.XmlDownloadManager.GetStream (System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy) [0x00018] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.XmlUrlResolver.GetEntity (System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn) [0x00032] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.XmlTextReaderImpl.FinishInitUriString () [0x0004c] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.XmlTextReaderImpl..ctor (System.String uriStr, System.Xml.XmlReaderSettings settings, System.Xml.XmlParserContext context, System.Xml.XmlResolver uriResolver) [0x000c7] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.XmlReaderSettings.CreateReader (System.String inputUri, System.Xml.XmlParserContext inputContext) [0x0003b] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.XmlReader.Create (System.String inputUri, System.Xml.XmlReaderSettings settings, System.Xml.XmlParserContext inputContext) [0x0000a] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.XmlReader.Create (System.String inputUri, System.Xml.XmlReaderSettings settings) [0x00000] in <99be1edf0aaf49b797a5a1f18675668a>:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri, System.Xml.Linq.LoadOptions options) [0x00007] in <866126d0564044359f4fb39a71e0f67b>:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri) [0x00000] in <866126d0564044359f4fb39a71e0f67b>:0 
+  at Coroner.LanguageHandler.LoadLanguageData (System.String languageCode) [0x00017] in <80a59e81c2564592805f30fcb397da76>:0 
+[Info   :   Coroner] Checking for LC_API...
+[Info   :   Coroner] LCAPI is present! LC_API:3.4.5
+[Info   :   BepInEx] Loading [ShipLoot 1.0]
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.5.6]
+[Info   :Lethal Company Input Utils] InputUtils 0.5.6 has finished loading!
+[Info   :   BepInEx] Loading [ControlCompany 1.1.0]
+[Info   :ControlCompany.ControlCompany] Loaded ControlCompany. Patching.
+[Info   :ControlCompany.ControlCompany] Completed patching. Initializing.
+[Info   :ControlCompany.ControlCompany] Completed initialization.
+[Info   :   BepInEx] Loading [ghostCodes 1.5.1]
+[Info   :ghostCodes] ghostCodes have been detected in the terminal
+[Info   :ghostCodes] ghostCodes config initialized
+[Info   :   BepInEx] Loading [OuijaBoard 1.5.2]
+[Info   :OuijaBoard] OuijaBoard loaded!
+[Info   :   BepInEx] Loading [LethalLib 0.13.2]
+[Info   : LethalLib] LethalLib loaded!!
+[Info   : LethalLib] Utilities.Init()
+[Info   :   BepInEx] Loading [LethalThings 0.9.4]
+[Info   :LethalThings] LethalLib version is 0.13.2, which is compatible with LethalThings 0.9.0+
+[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.5.6, which is compatible with LethalThings 0.8.0+
+[Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
+[Info   :LethalThings] LethalThings loaded successfully!!!
+[Info   :   BepInEx] Loading [FasterItemDropship 1.2.1]
+[Info   :FasterItemDropship] BindingConfigs
+[Info   :FasterItemDropship] FasterItemDropship loaded
+[Info   :   BepInEx] Loading [TooManyEmotes 1.8.0]
+[Info   :TooManyEmotes] BindingConfigs
+[Info   :TooManyEmotes] Cleaning old config entries
+[Info   :TooManyEmotes] Initializing custom emote hotkeys.
+[Info   :TooManyEmotes] InputUtilsLoaded: True
+[Info   :TooManyEmotes] Successfully loaded 8 animation clips from asset bundle: Assets/emotes_complementary
+[Info   :TooManyEmotes] Successfully loaded 83 animation clips from asset bundle: Assets/emotes_0
+[Info   :TooManyEmotes] Successfully loaded 68 animation clips from asset bundle: Assets/emotes_1
+[Info   :TooManyEmotes] Successfully loaded 50 animation clips from asset bundle: Assets/emotes_2
+[Info   :TooManyEmotes] Successfully loaded 2 animation clips from asset bundle: Assets/emotes_3
+[Info   :TooManyEmotes] Successfully loaded 1 animation clips from asset bundle: Assets/emotes_misc
+[Info   :TooManyEmotes] Successfully loaded radial menu asset.
+[Info   :TooManyEmotes] TooManyEmotes loaded
+[Info   :   BepInEx] Loading [HDLethalCompany-Sligili 1.5.6]
+[Info   :HDLethalCompany-Sligili] HDLethalCompany loaded
+[Info   :   BepInEx] Loading [HideModList 1.0.0]
+[Info   :HideModList] Plugin HideModList is loaded!
+[Info   :   BepInEx] Loading [LethalClunk 1.1.1]
+[Info   :LethalClunk] Plugin LethalClunk is loaded!
+[Info   :   BepInEx] Loading [LethalExpansion 1.3.22]
+[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.22 is loading...
+[Info   :LethalExpansion] Getting other plugins list
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Lethal Company API - Version: 3.4.5 - Compatibility: good
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Coroner - Version: 1.5.3 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ShipLoot - Version: 1.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: Lethal Company Input Utils - Version: 0.5.6 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ControlCompany - Version: 1.1.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: ghostCodes - Version: 1.5.1 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: OuijaBoard - Version: 1.5.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: LethalLib - Version: 0.13.2 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: LethalThings - Version: 0.9.4 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: FasterItemDropship - Version: 1.2.1 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: TooManyEmotes - Version: 1.8.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: HDLethalCompany-Sligili - Version: 1.5.6 - Compatibility: good
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: HideModList - Version: 1.0.0 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion]                               
+[Info   :LethalExpansion] Plugin: LethalClunk - Version: 1.1.1 - Compatibility: unknown
+[Info   :LethalExpansion] ------------------------------
+[Info   :LethalExpansion] Plugins folder found: G:\Lethal Company\BepInEx\plugins
+[Info   :LethalExpansion] Mod path is: G:\Lethal Company\BepInEx\plugins
+[Warning:LethalExpansion] LethalExpansion is Rooting the Plugins folder, this is not recommended. G:\Lethal Company\BepInEx\plugins
+[Info   :LethalExpansion] Module found: Atlas Abyss v1.3.0.0 Loaded in 8322ms
+[Info   :LethalExpansion] Module found: secret labs v1.3.0.0 Loaded in 4189ms
+[Info   :LethalExpansion] Module found: OldSeaPort v1.3.15.0 Loaded in 2596ms
+[Info   :LethalExpansion] Module found: TemplateMod v1.3.17.0 Loaded in 163ms
+[Info   :LethalExpansion] Water support applied to the HDRenderPipelineAsset.
+[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.22 is loaded.
+[Info   :   BepInEx] Loading [Hide Chat 1.0.0]
+[Info   :   BepInEx] Loading [RuntimeNetcodeRPCValidator 0.2.5]
+[Info   :   BepInEx] Loading [MoreEmotes-Sligili 1.3.3]
+[Info   :MoreEmotes-Sligili] MoreEmotes loaded
+[Info   :RuntimeNetcodeRPCValidator] Patched 1 ServerRPC & 1 ClientRPC on NetworkBehaviour SignEmoteText.
+[Info   :RuntimeNetcodeRPCValidator] Patched 1 ServerRPC & 1 ClientRPC on NetworkBehaviour SyncAnimatorToOthers.
+[Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by MoreEmotes
+[Info   :   BepInEx] Loading [MoreItems 1.0.2]
+[Info   : MoreItems] Plugin MoreItems is loaded!
+[Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
+[Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
+[Info   :Helmet_Cameras] --------Helmet camera patch done.---------
+[Info   :   BepInEx] Loading [Skinwalker Mod 2.0.7]
+[Info   :RugbugRedfern.SkinwalkerMod] SKINWALKER MOD STARTING UP 2.0.7
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BaboonHawk VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Bracken VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_BunkerSpider VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Centipede VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_CoilHead VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_EyelessDog VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_ForestGiant VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GhostGirl VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_GiantWorm VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_HoardingBug VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Hygrodere VALUE LOADED FROM CONFIG: [False]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Jester VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Masked VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Nutcracker VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_SporeLizard VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_Thumper VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_OtherEnemies VALUE LOADED FROM CONFIG: [True]
+[Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [1]
+[Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
+[Info   :   BepInEx] Loading [Bonk Hit SFX 1.0.5]
+[Info   :sunnobunno.bonkhitsfx] sunnobunno.bonkhitsfx is loading.
+[Info   :sunnobunno.bonkhitsfx] sunnobunno.bonkhitsfx is loaded. Ow.
+[Info   :   BepInEx] Loading [Yippee tbh mod 1.2.3]
+[Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loading.
+[Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loaded. Yippee!!!
+[Info   :   BepInEx] Loading [Free Bird Totem Remix for Jester Mod 1.0.1]
+[Info   :TopraksuK.FBTRJ] Loading Free Bird TOTEM Remix for Jester.
+[Info   :TopraksuK.FBTRJ] Free Bird Totem Remix for Jester Mod. Press ESC if the game is frozen occasionally.
+[Info   :   BepInEx] Loading [Late Company 1.0.10]
+[Info   :Late Company] Late Company loaded!
+[Info   :   BepInEx] Loading [Mimics 2.3.2]
+[Info   :    Mimics] Plugin Mimics is loaded!
+[Info   :   BepInEx] Loading [More Suits 1.4.1]
+[Info   :More Suits] Plugin More Suits is loaded!
+[Message:   BepInEx] Chainloader startup complete
+[Info   :Lethal Company API] LC_API Started!
+[Info   :TooManyEmotes] Applying compatibility patch for More_Emotes
+[Info   :LethalExpansion] Loading scene: InitSceneLaunchOptions
+[Info   :ControlCompany.ControlCompany] Initial keybind load
+[Info   :ControlCompany.ControlCompany] Loading keybinds
+[Info   :ControlCompany.ControlCompany] Done loading keybinds
+[Info   :LethalExpansion] Unloading scene: InitSceneLaunchOptions
+[Info   :LethalExpansion] Loading scene: InitScene
+[Info   :LethalExpansion] itemshipanimcontainer Prefab registered.
+[Info   :LethalExpansion] Battery Scrap registered.
+[Info   :LethalExpansion] Canned Food Scrap registered.
+[Info   :LethalExpansion] Matchbox Scrap registered.
+[Info   :LethalExpansion] Pills Scrap registered.
+[Info   :LethalExpansion] Tape Scrap registered.
+[Info   :LethalExpansion] Unloading scene: InitScene
+[Info   :LethalExpansion] Loading scene: MainMenu
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
