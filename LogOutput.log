@@ -10,7 +10,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 40 plugins to load
+[Info   :   BepInEx] 41 plugins to load
 [Info   :   BepInEx] Loading [BiggerLobby 2.6.0]
 [Info   :BiggerLobby] BiggerLobby loaded
 [Info   :   BepInEx] Loading [LethalLib 0.14.2]
@@ -122,6 +122,10 @@
 [Info   :LethalSnapProject] --> peeper  2
 [Info   :   BepInEx] Loading [MaskedEnemyRework 3.1.1]
 [Info   :MaskedEnemyRework] Plugin MaskedEnemyRework is loaded! Woohoo!
+[Info   :   BepInEx] Loading [MentalHospital 1.0.0]
+[Info   :MentalHospital] Registered DantorsMentalHospital dungeon for all vanilla moons.
+[Info   :MentalHospital] DantorsMentalHospital DunGen for Lethal Company [Version 1.0.0] successfully loaded.
+[Info   :MentalHospital] Plugin MentalHospital is loaded!
 [Info   :   BepInEx] Loading [Hide Chat 1.0.0]
 [Info   :   BepInEx] Loading [RuntimeNetcodeRPCValidator 0.2.5]
 [Info   :   BepInEx] Loading [MoreEmotes-Sligili 1.3.3]
@@ -164,8 +168,7 @@
 [Info   :Scopophobia] Scopophobia | SCP-096 has entered the facility. All remaining personnel proceed with caution.
 [Info   :   BepInEx] Loading [SCPCBDunGen 3.0.0]
 [Info   :SCPCBDunGen] Registering SCP dungeon for predefined moon list.
-[Info   :SCPCBDunGen] Registering SCP dungeon for moon Titan at default rarity 150
-[Info   :SCPCBDunGen] Registering SCP dungeon for moon Secret Labs at rarity 500
+[Info   :SCPCBDunGen] Registering SCP dungeon for moon Secret Labs at default rarity 150
 [Info   :SCPCBDunGen] SCP:CB DunGen for Lethal Company [Version 3.0.0] successfully loaded.
 [Info   :   BepInEx] Loading [SecretLabs 1.0.0]
 [Info   :   BepInEx] Loading [Bonk Hit SFX 1.0.5]
@@ -194,9 +197,11 @@
 [Info   :LethalLevelLoader] Loading Custom Content From Bundle: secret labs.lethalbundle
 [Info   :LethalLevelLoader] Loading Custom Content From Bundle: secretlabss.lethalbundle
 [Info   :LethalLevelLoader] Registering Bundle Content!
+[Info   :LethalLevelLoader] Automatically Restored The Following SpawnablePrefab's In HospitalFlow: VentEntrance, EntranceTeleportA, EntranceTeleportB, 
+[Info   :LethalLevelLoader] Automatically Registered The Following SpawnablePrefab's In HospitalFlow: DoorDirector, DoorPink, DoorGrey, DoorGreen, DoorReception, 
 [Info   :LethalLevelLoader] Automatically Restored The Following SpawnablePrefab's In SCPFlow: VentEntrance, EntranceTeleportA, EntranceTeleportB, 
 [Info   :LethalLevelLoader] Automatically Registered The Following SpawnablePrefab's In SCPFlow: SCPDoorBtn, 914_Controls, 
-[Info   :LethalLevelLoader] Skipped Registering 64 NetworkObjects As They Were Already Registered.
+[Info   :LethalLevelLoader] Skipped Registering 108 NetworkObjects As They Were Already Registered.
 [Message:Lethal Company API] server pre-setup success
 [Info   :LethalThings] Spawning config manager
 [Info   :ControlCompany.ControlCompany] Loading keybinds
@@ -213,6 +218,7 @@
 [Info   : LethalLib] Adding 4 unlockables to unlockables list
 [Info   : LethalLib] Adding 10 items to terminal
 [Info   :LethalLevelLoader] Creating ExtendedLevels For Vanilla SelectableLevels
+[Warning:LethalLevelLoader] Custom Dungeon: HospitalFlow Is Missing A DungeonFirstTimeAudio Reference! Assigning Facility Audio To Prevent Errors.
 [Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedLevels:
 1. 41 Experimentation (Vanilla)
 2. 220 Assurance (Vanilla)
@@ -229,7 +235,8 @@
 1. Facility (Level1Flow) (Vanilla)
 2. Haunted Mansion (Level2Flow) (Vanilla)
 3. Facility (Level1FlowExtraLarge) (Vanilla)
-4. SCP Foundation (SCPFlow) (Custom)
+4. HospitalFlow (HospitalFlow) (Custom)
+5. SCP Foundation (SCPFlow) (Custom)
 
 [Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
@@ -260,18 +267,16 @@
 [Info   : LethalLib] Found 27 prefabs to fix
 [Info   :TooManyEmotes] [SaveManager] Loading game values.
 [Info   :TooManyEmotes] Resetting unlocked emotes.
-[Info   :TooManyEmotes] Loading 0 emotes for player: Muzoff
-[Info   :TooManyEmotes] Loading 100 emote credits for player: Muzoff
 [Info   :TooManyEmotes] Loaded 8 unlockable emotes.
 [Info   :TooManyEmotes] Loaded CurrentEmoteCredits: 100
-[Info   :TooManyEmotes] Loaded Seed: 960592697
-[Info   :TooManyEmotes] Rotating emote selection in store. Seed: 960592697
-[Info   :TooManyEmotes] Rotate new emote value: 0,264254824847102
-[Info   :TooManyEmotes] Rotate new emote value: 0,711493919003519
-[Info   :TooManyEmotes] Rotate new emote value: 0,624366250179879
-[Info   :TooManyEmotes] Rotate new emote value: 0,451420383272423
-[Info   :TooManyEmotes] Rotate new emote value: 0,892236253196484
-[Info   :TooManyEmotes] Rotate new emote value: 0,0894442364058663
+[Info   :TooManyEmotes] Loaded Seed: 0
+[Info   :TooManyEmotes] Rotating emote selection in store. Seed: 483756399
+[Info   :TooManyEmotes] Rotate new emote value: 0,464821813844527
+[Info   :TooManyEmotes] Rotate new emote value: 0,985704258543301
+[Info   :TooManyEmotes] Rotate new emote value: 0,874818014854015
+[Info   :TooManyEmotes] Rotate new emote value: 0,479242956488972
+[Info   :TooManyEmotes] Rotate new emote value: 0,466019034602688
+[Info   :TooManyEmotes] Rotate new emote value: 0,522244434581252
 [Info   :MaskedEnemyRework] Found Flowerman!
 [Info   :MaskedEnemyRework] Found Flowerman!
 [Info   :MaskedEnemyRework] Found Flowerman!
@@ -284,6 +289,7 @@
 [Info   :MaskedEnemyRework] Found Masked!
 [Warning:LethalLevelLoader] Disabling LethalLib Dungeon.RoundManager_Start() Function To Prevent Conflicts
 [Warning:LethalLevelLoader] Asset Restoration Failed, Null Reference Found!
+[Warning:LethalLevelLoader] Audio Restoration Warning: Trigger Has Missing ReverbPreset
 [Warning:LethalLevelLoader] Audio Restoration Warning: ExitRoomReverb Has Missing ReverbPreset
 [Warning:LethalLevelLoader] Audio Restoration Warning: ExitRoomReverbR Has Missing ReverbPreset
 [Warning:LethalLevelLoader] Audio Restoration Warning: ExitRoomReverbL Has Missing ReverbPreset
@@ -305,9 +311,643 @@
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   : MoreItems] Maximum amount of items that can be saved set to 999 just before saving.
-[Info   :TooManyEmotes] [SaveManager] Saving game values.
-[Info   :TooManyEmotes] Saving 8 emotes for player: Muzoff
-[Info   :TooManyEmotes] Saving 100 emote credits for player: Muzoff
-[Info   :TooManyEmotes] Saved Seed: 960592697
+[Message:ControlCompany.ControlCompany] Setting next target to host
+[Message:ControlCompany.ControlCompany] Reset to default.
+[Message:ControlCompany.ControlCompany] Start of round initialization completed.
+[Info   :ControlCompany.ControlCompany] Creating ghost
+[Info   :LethalLevelLoader] Getting Random DungeonFlows!
+[Info   :LethalLevelLoader] Trying To Find All Matching DungeonFlows For Level: Experimentation
+Potential DungeonFlows Collected, List Below: 
+Facility - 300, Haunted Mansion - 1, HospitalFlow - 0, SCP Foundation - 0, 
+
+SelectableLevel - 41 Experimentation Level Tags: Wasteland, Vanilla, 
+
+DungeonFlow 3. : HospitalFlow - Matched Experimentation With A Rarity Of: 300 Based On Content Source Name!
+
+Matching DungeonFlows Collected, Count Is: 3
+
+
+[Info   :LethalLevelLoader] Setting Random DungeonFlows!
+[Warning:LethalLevelLoader] Disabling LethalLib Dungeon.RoundManager_GenerateNewFloor() Function To Prevent Conflicts
+[Info   :LethalLevelLoader] CurrentLevel: Experimentation DungeonSize Is: 1 | Overrriding DungeonSize To: 0,72 (1,08)
+[Info   :LethalLevelLoader] Fire Exit Patch Report, Details Below;
+
+EntranceTeleport's Found, Experimentation Contains 2 Entrances! ( 1 Fire Escapes) 
+Main Entrance: EntranceTeleportA (Entrance ID: 0) (Dungeon ID: 3)
+Alternate Entrance: EntranceTeleportB (Entrance ID: 1) (Dungeon ID: 3)
+Found Fire Escape GlobalProp: (ID: 1231), Modifying Spawnrate Count From (1,5) To (1,1)
+
+
+[Info   :LethalLevelLoader] Created New Day History Log! PlanetName: Experimentation , DungeonName: HospitalFlow , Quota: 0 , Day: 1 , Weather: None
+[Info   :SCPCBDunGen] No 914 room found.
+[Info   :MentalHospital] Totals for scrap replacement: General: 57, Tabletop: 26, Small: 4
+[Info   :LethalClunk] Large Axle Spawned
+[Info   :LethalClunk] Large Axle Spawned
+[Info   :LethalClunk] Large Axle Spawned
+[Info   :CullFactory] HospitalFlow has finished generating with seed 47023646.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ghostCodes] Insanity mode percents set >:)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 120,7163
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 273,0387
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] SandSpider(Clone) played voice line no (too far away) 281,687
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandWorm(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled Blob(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled SandSpider(Clone) True
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:Lethal Company API] server pre-setup success
+[Info   :LethalThings] Spawning config manager
+[Info   :ControlCompany.ControlCompany] Loading keybinds
+[Info   :ControlCompany.ControlCompany] Done loading keybinds
+[Info   :ghostCodes] Nethandler Spawned!
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   : LethalLib] Adding 4 unlockables to unlockables list
+[Info   : LethalLib] Unlockable Small Rug already exists in unlockables list, skipping
+[Info   : LethalLib] Unlockable Large Rug already exists in unlockables list, skipping
+[Info   : LethalLib] Unlockable Fatalities Sign already exists in unlockables list, skipping
+[Info   : LethalLib] Unlockable Dartboard already exists in unlockables list, skipping
+[Info   : LethalLib] Keyword small-rug already registed, skipping.
+[Info   : LethalLib] Keyword large-rug already registed, skipping.
+[Info   : LethalLib] Keyword fatalities-sign already registed, skipping.
+[Info   : LethalLib] Keyword dartboard already registed, skipping.
+[Info   : LethalLib] Adding 10 items to terminal
+[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   : LethalLib] Found 0 prefabs to fix
+[Info   :TooManyEmotes] [SaveManager] Loading game values.
+[Info   :TooManyEmotes] Resetting unlocked emotes.
+[Info   :TooManyEmotes] Loaded 8 unlockable emotes.
+[Info   :TooManyEmotes] Loaded CurrentEmoteCredits: 100
+[Info   :TooManyEmotes] Loaded Seed: 0
+[Info   :TooManyEmotes] Rotating emote selection in store. Seed: 901476794
+[Info   :TooManyEmotes] Rotate new emote value: 0,0659055197918348
+[Info   :TooManyEmotes] Rotate new emote value: 0,468256234875068
+[Info   :TooManyEmotes] Rotate new emote value: 0,426508706261641
+[Info   :TooManyEmotes] Rotate new emote value: 0,178281809286346
+[Info   :TooManyEmotes] Rotate new emote value: 0,431078401594925
+[Info   :TooManyEmotes] Rotate new emote value: 0,662517049192692
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Warning:LethalLevelLoader] Disabling LethalLib Dungeon.RoundManager_Start() Function To Prevent Conflicts
+[Info   :LethalLevelLoader] Creating ExtendedLevelGroups
+[Info   :LethalLevelLoader] 41 Experimentation
+[Info   :LethalLevelLoader] 220 Assurance
+[Info   :LethalLevelLoader] 56 Vow
+[Info   :LethalLevelLoader] 21 Offense
+[Info   :LethalLevelLoader] 61 March
+[Info   :LethalLevelLoader] 85 Rend
+[Info   :LethalLevelLoader] 7 Dine
+[Info   :LethalLevelLoader] 8 Titan
+[Info   :TooManyEmotes] Initializing local player.
+[Warning:TooManyEmotes] Converting animator controller to override for player: Player
+[Warning:TooManyEmotes] Converting animator controller to override for player: Player
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Warning:Lethal Company API] Asking all other players for their mod list..
+[Message:ControlCompany.ControlCompany] Setting next target to host
+[Message:ControlCompany.ControlCompany] Reset to default.
+[Message:ControlCompany.ControlCompany] Start of round initialization completed.
+[Info   :ControlCompany.ControlCompany] Creating ghost
+[Info   :LethalLevelLoader] Getting Random DungeonFlows!
+[Info   :LethalLevelLoader] Trying To Find All Matching DungeonFlows For Level: Experimentation
+Potential DungeonFlows Collected, List Below: 
+Facility - 300, Haunted Mansion - 1, HospitalFlow - 0, SCP Foundation - 0, 
+
+SelectableLevel - 41 Experimentation Level Tags: Wasteland, Vanilla, 
+
+DungeonFlow 3. : HospitalFlow - Matched Experimentation With A Rarity Of: 300 Based On Content Source Name!
+
+Matching DungeonFlows Collected, Count Is: 3
+
+
+[Info   :LethalLevelLoader] Setting Random DungeonFlows!
+[Warning:LethalLevelLoader] Disabling LethalLib Dungeon.RoundManager_GenerateNewFloor() Function To Prevent Conflicts
+[Info   :LethalLevelLoader] CurrentLevel: Experimentation DungeonSize Is: 1 | Overrriding DungeonSize To: 0,72 (1,08)
+[Info   :LethalLevelLoader] Fire Exit Patch Report, Details Below;
+
+EntranceTeleport's Found, Experimentation Contains 2 Entrances! ( 1 Fire Escapes) 
+Main Entrance: EntranceTeleportA (Entrance ID: 0) (Dungeon ID: 3)
+Alternate Entrance: EntranceTeleportB (Entrance ID: 1) (Dungeon ID: 3)
+Found Fire Escape GlobalProp: (ID: 1231), Modifying Spawnrate Count From (1,1) To (1,1)
+
+
+[Info   :LethalLevelLoader] Created New Day History Log! PlanetName: Experimentation , DungeonName: HospitalFlow , Quota: 0 , Day: 2 , Weather: None
+[Info   :SCPCBDunGen] No 914 room found.
+[Info   :MentalHospital] Totals for scrap replacement: General: 80, Tabletop: 40, Small: 5
+[Info   :CullFactory] HospitalFlow has finished generating with seed 96341677.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ghostCodes] Insanity mode percents set >:)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DoublewingedBird(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled DocileLocustBees(Clone) False
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
