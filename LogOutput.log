@@ -10,13 +10,31 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 30 plugins to load
+[Info   :   BepInEx] 40 plugins to load
 [Info   :   BepInEx] Loading [BiggerLobby 2.6.0]
 [Info   :BiggerLobby] BiggerLobby loaded
-[Info   :   BepInEx] Loading [Karma For Being Annoying Mod 1.1.0]
-[Info   :Chrigi.KarmaForBeingAnnoyingMod] ________________
-Karma is a bitch!
-________________
+[Info   :   BepInEx] Loading [LethalLib 0.14.2]
+[Info   : LethalLib] LethalLib loaded!!
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.5.6]
+[Info   :Lethal Company Input Utils] InputUtils 0.5.6 has finished loading!
+[Info   :   BepInEx] Loading [LethalThings 0.9.4]
+[Info   :LethalThings] LethalLib version is 0.14.2, which is compatible with LethalThings 0.9.0+
+[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.5.6, which is compatible with LethalThings 0.8.0+
+[Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
+[Info   :LethalThings] LethalThings loaded successfully!!!
+[Info   :   BepInEx] Loading [Chillax Mods 0.6.0]
+[Info   : LethalLib] Loaded asset bundle
+[Info   :Chillax Mods] [CHILLAX] Registering... Boink at rarity 25
+[Info   :Chillax Mods] [CHILLAX] Registering... Cup Noodle at rarity 40
+[Info   :Chillax Mods] [CHILLAX] Registering... Freddy Fast Bear? at rarity 15
+[Info   :Chillax Mods] [CHILLAX] Registering... Nokia 3310 at rarity 25
+[Info   :Chillax Mods] [CHILLAX] Registering... Moai at rarity 20
+[Info   :Chillax Mods] [CHILLAX] Registering... Froggy Chair at rarity 25
+[Info   :Chillax Mods] [CHILLAX] Registering... Eevee Plush at rarity 25
+[Info   :Chillax Mods] [CHILLAX] Registering... Death Note at rarity 20
+[Info   :Chillax Mods] [CHILLAX] Registering... Uno Reverse Card at rarity 20
+[Info   : LethalLib] [CHILLAX] Custom content loaded!
+[Info   :Chillax Mods] CHILLAX Plugin Loaded
 [Info   :   BepInEx] Loading [Lethal Company API 3.4.5]
 [Warning:Lethal Company API] 
 .____    _________           _____  __________ .___  
@@ -34,9 +52,8 @@ ________________
 [Info   :   Coroner] Coroner Language Support: ru
 [Info   :   Coroner] Checking for LC_API...
 [Info   :   Coroner] LCAPI is present! LC_API:3.4.5
+[Info   :   BepInEx] Loading [CullFactory 0.9.0]
 [Info   :   BepInEx] Loading [ShipLoot 1.0]
-[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.5.6]
-[Info   :Lethal Company Input Utils] InputUtils 0.5.6 has finished loading!
 [Info   :   BepInEx] Loading [ControlCompany 1.1.0]
 [Info   :ControlCompany.ControlCompany] Loaded ControlCompany. Patching.
 [Info   :ControlCompany.ControlCompany] Completed patching. Initializing.
@@ -46,14 +63,6 @@ ________________
 [Info   :ghostCodes] ghostCodes config initialized
 [Info   :   BepInEx] Loading [OuijaBoard 1.5.2]
 [Info   :OuijaBoard] OuijaBoard loaded!
-[Info   :   BepInEx] Loading [LethalLib 0.13.2]
-[Info   : LethalLib] LethalLib loaded!!
-[Info   : LethalLib] Utilities.Init()
-[Info   :   BepInEx] Loading [LethalThings 0.9.4]
-[Info   :LethalThings] LethalLib version is 0.13.2, which is compatible with LethalThings 0.9.0+
-[Info   :LethalThings] [Optional dependency] LethalCompanyInputUtils version is 0.5.6, which is compatible with LethalThings 0.8.0+
-[Info   : LethalLib] [LethalLib] LethalThings is registering 26 content items!
-[Info   :LethalThings] LethalThings loaded successfully!!!
 [Info   :   BepInEx] Loading [FasterItemDropship 1.2.1]
 [Info   :FasterItemDropship] BindingConfigs
 [Info   :FasterItemDropship] FasterItemDropship loaded
@@ -74,71 +83,45 @@ ________________
 [Info   :HDLethalCompany-Sligili] HDLethalCompany loaded
 [Info   :   BepInEx] Loading [HideModList 1.0.0]
 [Info   :HideModList] Plugin HideModList is loaded!
+[Info   :   BepInEx] Loading [LethalLevelLoader 1.1.0.6]
+[Info   :LethalLevelLoader] LethalLevelLoader loaded!!
+[Info   :   BepInEx] Loading [BoomboxController 1.1.9]
+[Info   :BoomboxController] 
+                                                                                                                                                                  
+`7MM"""Yp,                                   *MM                                 .g8"""bgd                  mm                   `7MM `7MM                  
+  MM    Yb                                    MM                               .dP'     `M                  MM                     MM   MM                  
+  MM    dP  ,pW"Wq.   ,pW"Wq.`7MMpMMMb.pMMMb. MM,dMMb.   ,pW"Wq.`7M'   `MF'    dM'       `,pW"Wq.`7MMpMMMbmmMMmm `7Mb,od8 ,pW"Wq.  MM   MM  .gP"Ya `7Mb,od8 
+  MM"""bg. 6W'   `Wb 6W'   `Wb MM    MM    MM MM    `Mb 6W'   `Wb `VA ,V'      MM        6W'   `Wb MM    MM MM     MM' "'6W'   `Wb MM   MM ,M'   Yb  MM' "' 
+  MM    `Y 8M     M8 8M     M8 MM    MM    MM MM     M8 8M     M8   XMX        MM.       8M     M8 MM    MM MM     MM    8M     M8 MM   MM 8M""""""  MM     
+  MM    ,9 YA.   ,A9 YA.   ,A9 MM    MM    MM MM.   ,M9 YA.   ,A9 ,V' VA.      `Mb.     ,YA.   ,A9 MM    MM MM     MM    YA.   ,A9 MM   MM YM.    ,  MM     
+.JMMmmmd9   `Ybmd9'   `Ybmd9'.JMML  JMML  JMMLP^YbmdP'   `Ybmd9'.AM.   .MA.      `"bmmmd' `Ybmd9'.JMML  JMML`Mbmo.JMML.   `Ybmd9'.JMML.JMML.`Mbmmd'.JMML.   
+                                                                                                                                                                  
+[Info   :   BepInEx] Loading [LC_Masked_Fix 0.0.2]
+[Info   :kuba6000.LC_MimicFixMod] Mimic Fix Awaken!
+[Info   :kuba6000.LC_MimicFixMod] V47/48/49 - Fixes red screen overlay / vomit screen after the kill is inturrupted
+[Info   :kuba6000.LC_MimicFixMod] V45 - Fixes stuck screen after interrupting the kill animation
+[Info   :kuba6000.LC_MimicFixMod] Patching MaskedPlayerEnemy
 [Info   :   BepInEx] Loading [LethalClunk 1.1.1]
 [Info   :LethalClunk] Plugin LethalClunk is loaded!
-[Info   :   BepInEx] Loading [LethalExpansion 1.3.22]
-[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.22 is loading...
-[Info   :LethalExpansion] Getting other plugins list
-[Info   :LethalExpansion]                               
-[Fatal  :LethalExpansion] Plugin: BiggerLobby - Version: 2.6.0 - Compatibility: critical
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Karma For Being Annoying Mod - Version: 1.1.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Lethal Company API - Version: 3.4.5 - Compatibility: good
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Coroner - Version: 1.5.3 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ShipLoot - Version: 1.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: Lethal Company Input Utils - Version: 0.5.6 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ControlCompany - Version: 1.1.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: ghostCodes - Version: 1.5.1 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: OuijaBoard - Version: 1.5.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: LethalLib - Version: 0.13.2 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: LethalThings - Version: 0.9.4 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: FasterItemDropship - Version: 1.2.1 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: TooManyEmotes - Version: 1.8.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: HDLethalCompany-Sligili - Version: 1.5.6 - Compatibility: good
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: HideModList - Version: 1.0.0 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion]                               
-[Info   :LethalExpansion] Plugin: LethalClunk - Version: 1.1.1 - Compatibility: unknown
-[Info   :LethalExpansion] ------------------------------
-[Info   :LethalExpansion] Plugins folder found: G:\Lethal Company\BepInEx\plugins
-[Info   :LethalExpansion] Mod path is: G:\Lethal Company\BepInEx\plugins
-[Warning:LethalExpansion] LethalExpansion is Rooting the Plugins folder, this is not recommended. G:\Lethal Company\BepInEx\plugins
-[Info   :LethalExpansion] Module found: secret labs v1.3.0.0 Loaded in 4696ms
-[Info   :LethalExpansion] Module found: CastleGrounds v1.2.11.0 Loaded in 2050ms
-[Info   :LethalExpansion] Module found: OldSeaPort v1.3.15.0 Loaded in 3006ms
-[Info   :LethalExpansion] Module found: TemplateMod v1.3.17.0 Loaded in 185ms
-[Info   :LethalExpansion] Water support applied to the HDRenderPipelineAsset.
-[Info   :LethalExpansion] PluginName: LethalExpansion, VersionString: 1.3.22 is loaded.
-[Info   :   BepInEx] Loading [HornMoan 2.1.0]
-[Info   :MetalPipeSFX.HornMoan] The Moaning is Loading
-[Info   :MetalPipeSFX.HornMoan] Loaded The Moaning Successfully
+[Info   :   BepInEx] Loading [LethalNetworkAPI 2.1.6]
+[Info   :LethalNetworkAPI] LethalNetworkAPI v2.1.6 has Loaded.
+[Info   :   BepInEx] Loading [LethalSnapProject 1.5.2]
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Drop/FOLEY_LS_POL_Drop_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Equip/FOLEY_LS_POL_Equip_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Grab/FOLEY_LS_POL_Grab_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Picture_Grab/FOLEY_LS_POL_Picture_Grab_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Picture_Equip/FOLEY_LS_POL_Picture_Equip_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Picture_Drop/FOLEY_LS_POL_Picture_Drop_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/SFX_LS_POL_Shoot_Empty/SFX_LS_POL_Shoot_Empty_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/SFX_LS_POL_Shoot_Flash_Off/SFX_LS_POL_Shoot_Flash_Off_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/SFX_LS_POL_Shoot_Flash_On/SFX_LS_POL_Shoot_Flash_On_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/SFX_LS_POL_Switch_Flash_Off/SFX_LS_POL_Switch_Flash_Off_
+[Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/SFX_LS_POL_Switch_Flash_On/SFX_LS_POL_Switch_Flash_On_
+[Info   :LethalSnapProject] Plugin LethalSnapProject is loaded!
+[Info   :LethalSnapProject] --> test  80
+[Info   :LethalSnapProject] --> peeper  2
+[Info   :   BepInEx] Loading [MaskedEnemyRework 3.1.1]
+[Info   :MaskedEnemyRework] Plugin MaskedEnemyRework is loaded! Woohoo!
 [Info   :   BepInEx] Loading [Hide Chat 1.0.0]
 [Info   :   BepInEx] Loading [RuntimeNetcodeRPCValidator 0.2.5]
 [Info   :   BepInEx] Loading [MoreEmotes-Sligili 1.3.3]
@@ -148,6 +131,11 @@ ________________
 [Info   :RuntimeNetcodeRPCValidator] Successfully registered first patch for type PlayerControllerB.Awake | Triggered by MoreEmotes
 [Info   :   BepInEx] Loading [MoreItems 1.0.2]
 [Info   : MoreItems] Plugin MoreItems is loaded!
+[Info   :   BepInEx] Loading [MaskedAIRevamp 0.2.0]
+[Info   :MaskedAIRevamp] Successfully loaded assets!
+[Info   :Piggy.MaskedAIRevamp] Masked AI Revamp is loaded
+[Info   :   BepInEx] Loading [Better Item Scan 3.0.0.2]
+[Info   :PopleZoo.BetterItemScan] Plugin BetterItemScan is loaded!
 [Info   :   BepInEx] Loading [Helmet_Cameras 2.1.5]
 [Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.5!
 [Info   :Helmet_Cameras] --------Helmet camera patch done.---------
@@ -172,6 +160,14 @@ ________________
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceEnabled_OtherEnemies VALUE LOADED FROM CONFIG: [True]
 [Info   :RugbugRedfern.SkinwalkerMod] VoiceLineFrequency VALUE LOADED FROM CONFIG: [1]
 [Info   :RugbugRedfern.SkinwalkerMod] Skinwalker Mod Object Initialized
+[Info   :   BepInEx] Loading [Scopophobia 1.1.1]
+[Info   :Scopophobia] Scopophobia | SCP-096 has entered the facility. All remaining personnel proceed with caution.
+[Info   :   BepInEx] Loading [SCPCBDunGen 3.0.0]
+[Info   :SCPCBDunGen] Registering SCP dungeon for predefined moon list.
+[Info   :SCPCBDunGen] Registering SCP dungeon for moon Titan at default rarity 150
+[Info   :SCPCBDunGen] Registering SCP dungeon for moon Secret Labs at rarity 500
+[Info   :SCPCBDunGen] SCP:CB DunGen for Lethal Company [Version 3.0.0] successfully loaded.
+[Info   :   BepInEx] Loading [SecretLabs 1.0.0]
 [Info   :   BepInEx] Loading [Bonk Hit SFX 1.0.5]
 [Info   :sunnobunno.bonkhitsfx] sunnobunno.bonkhitsfx is loading.
 [Info   :sunnobunno.bonkhitsfx] sunnobunno.bonkhitsfx is loaded. Ow.
@@ -181,73 +177,31 @@ ________________
 [Info   :   BepInEx] Loading [Free Bird Totem Remix for Jester Mod 1.0.1]
 [Info   :TopraksuK.FBTRJ] Loading Free Bird TOTEM Remix for Jester.
 [Info   :TopraksuK.FBTRJ] Free Bird Totem Remix for Jester Mod. Press ESC if the game is frozen occasionally.
-[Info   :   BepInEx] Loading [Late Company 1.0.10]
+[Info   :   BepInEx] Loading [Late Company 1.0.11]
 [Info   :Late Company] Late Company loaded!
-[Info   :   BepInEx] Loading [Mimics 2.3.2]
+[Info   :   BepInEx] Loading [Mimics 2.4.0]
 [Info   :    Mimics] Plugin Mimics is loaded!
 [Info   :   BepInEx] Loading [More Suits 1.4.1]
 [Info   :More Suits] Plugin More Suits is loaded!
 [Message:   BepInEx] Chainloader startup complete
 [Message:Lethal Company API] A plugin has set your game to only allow you to play with other people who have mods!
 [Info   :Lethal Company API] LC_API Started!
+[Info   :LethalLevelLoader] Finding LethalBundles!
 [Info   :TooManyEmotes] Applying compatibility patch for More_Emotes
-[Info   :LethalExpansion] Loading scene: InitSceneLaunchOptions
 [Info   :ControlCompany.ControlCompany] Initial keybind load
 [Info   :ControlCompany.ControlCompany] Loading keybinds
 [Info   :ControlCompany.ControlCompany] Done loading keybinds
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :LethalExpansion] Unloading scene: InitSceneLaunchOptions
-[Info   :LethalExpansion] Loading scene: InitScene
-[Info   :LethalExpansion] itemshipanimcontainer Prefab registered.
-[Info   :LethalExpansion] Battery Scrap registered.
-[Info   :LethalExpansion] Canned Food Scrap registered.
-[Info   :LethalExpansion] Matchbox Scrap registered.
-[Info   :LethalExpansion] Pills Scrap registered.
-[Info   :LethalExpansion] Tape Scrap registered.
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :LethalExpansion] Unloading scene: InitScene
-[Info   :LethalExpansion] Loading scene: MainMenu
-[Info   :LethalExpansion] LethalExpansion Host Started.
+[Info   :LethalLevelLoader] Loading Custom Content From Bundle: secret labs.lethalbundle
+[Info   :LethalLevelLoader] Loading Custom Content From Bundle: secretlabss.lethalbundle
+[Info   :LethalLevelLoader] Registering Bundle Content!
+[Info   :LethalLevelLoader] Automatically Restored The Following SpawnablePrefab's In SCPFlow: VentEntrance, EntranceTeleportA, EntranceTeleportB, 
+[Info   :LethalLevelLoader] Automatically Registered The Following SpawnablePrefab's In SCPFlow: SCPDoorBtn, 914_Controls, 
+[Info   :LethalLevelLoader] Skipped Registering 64 NetworkObjects As They Were Already Registered.
 [Message:Lethal Company API] server pre-setup success
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :LethalExpansion] Unloading scene: MainMenu
 [Info   :LethalThings] Spawning config manager
 [Info   :ControlCompany.ControlCompany] Loading keybinds
 [Info   :ControlCompany.ControlCompany] Done loading keybinds
 [Info   :ghostCodes] Nethandler Spawned!
-[Info   : LethalLib] Added Boomba to ExperimentationLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to AssuranceLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to VowLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to CompanyBuildingLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to MarchLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to RendLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to DineLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to OffenseLevel with SpawnType [Default]
-[Info   : LethalLib] Added Boomba to TitanLevel with SpawnType [Default]
-[Info   : LethalLib] Added TeleporterTrap to ExperimentationLevel
-[Info   : LethalLib] Added TeleporterTrap to AssuranceLevel
-[Info   : LethalLib] Added TeleporterTrap to VowLevel
-[Info   : LethalLib] Added TeleporterTrap to CompanyBuildingLevel
-[Info   : LethalLib] Added TeleporterTrap to MarchLevel
-[Info   : LethalLib] Added TeleporterTrap to RendLevel
-[Info   : LethalLib] Added TeleporterTrap to DineLevel
-[Info   : LethalLib] Added TeleporterTrap to OffenseLevel
-[Info   : LethalLib] Added TeleporterTrap to TitanLevel
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
@@ -257,209 +211,26 @@ ________________
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   : LethalLib] Adding 4 unlockables to unlockables list
-[Info   : LethalLib] Adding 4 items to terminal
-[Info   : LethalLib] LethalLib registered item: Small Rug
-[Info   : LethalLib] LethalLib registered item: Large Rug
-[Info   : LethalLib] LethalLib registered item: Fatalities Sign
-[Info   : LethalLib] LethalLib registered item: Dartboard
-[Info   : LethalLib] Added ArsonPlush to ExperimentationLevel
-[Info   : LethalLib] Added ArsonPlush to AssuranceLevel
-[Info   : LethalLib] Added ArsonPlush to VowLevel
-[Info   : LethalLib] Added ArsonPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added ArsonPlush to MarchLevel
-[Info   : LethalLib] Added ArsonPlush to RendLevel
-[Info   : LethalLib] Added ArsonPlush to DineLevel
-[Info   : LethalLib] Added ArsonPlush to OffenseLevel
-[Info   : LethalLib] Added ArsonPlush to TitanLevel
-[Info   : LethalLib] Added CookieFumo to ExperimentationLevel
-[Info   : LethalLib] Added CookieFumo to AssuranceLevel
-[Info   : LethalLib] Added CookieFumo to VowLevel
-[Info   : LethalLib] Added CookieFumo to CompanyBuildingLevel
-[Info   : LethalLib] Added CookieFumo to MarchLevel
-[Info   : LethalLib] Added CookieFumo to RendLevel
-[Info   : LethalLib] Added CookieFumo to DineLevel
-[Info   : LethalLib] Added CookieFumo to OffenseLevel
-[Info   : LethalLib] Added CookieFumo to TitanLevel
-[Info   : LethalLib] Added ToimariPlush to ExperimentationLevel
-[Info   : LethalLib] Added ToimariPlush to AssuranceLevel
-[Info   : LethalLib] Added ToimariPlush to VowLevel
-[Info   : LethalLib] Added ToimariPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added ToimariPlush to MarchLevel
-[Info   : LethalLib] Added ToimariPlush to RendLevel
-[Info   : LethalLib] Added ToimariPlush to DineLevel
-[Info   : LethalLib] Added ToimariPlush to OffenseLevel
-[Info   : LethalLib] Added ToimariPlush to TitanLevel
-[Info   : LethalLib] Added HamisPlush to ExperimentationLevel
-[Info   : LethalLib] Added HamisPlush to AssuranceLevel
-[Info   : LethalLib] Added HamisPlush to VowLevel
-[Info   : LethalLib] Added HamisPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added HamisPlush to MarchLevel
-[Info   : LethalLib] Added HamisPlush to RendLevel
-[Info   : LethalLib] Added HamisPlush to DineLevel
-[Info   : LethalLib] Added HamisPlush to OffenseLevel
-[Info   : LethalLib] Added HamisPlush to TitanLevel
-[Info   : LethalLib] Added ArsonPlushDirty to ExperimentationLevel
-[Info   : LethalLib] Added ArsonPlushDirty to AssuranceLevel
-[Info   : LethalLib] Added ArsonPlushDirty to VowLevel
-[Info   : LethalLib] Added ArsonPlushDirty to CompanyBuildingLevel
-[Info   : LethalLib] Added ArsonPlushDirty to MarchLevel
-[Info   : LethalLib] Added ArsonPlushDirty to RendLevel
-[Info   : LethalLib] Added ArsonPlushDirty to DineLevel
-[Info   : LethalLib] Added ArsonPlushDirty to OffenseLevel
-[Info   : LethalLib] Added ArsonPlushDirty to TitanLevel
-[Info   : LethalLib] Added Dingus to ExperimentationLevel
-[Info   : LethalLib] Added Dingus to AssuranceLevel
-[Info   : LethalLib] Added Dingus to VowLevel
-[Info   : LethalLib] Added Dingus to CompanyBuildingLevel
-[Info   : LethalLib] Added Dingus to MarchLevel
-[Info   : LethalLib] Added Dingus to RendLevel
-[Info   : LethalLib] Added Dingus to DineLevel
-[Info   : LethalLib] Added Dingus to OffenseLevel
-[Info   : LethalLib] Added Dingus to TitanLevel
-[Info   : LethalLib] Added glizzy to ExperimentationLevel
-[Info   : LethalLib] Added glizzy to AssuranceLevel
-[Info   : LethalLib] Added glizzy to VowLevel
-[Info   : LethalLib] Added glizzy to CompanyBuildingLevel
-[Info   : LethalLib] Added glizzy to MarchLevel
-[Info   : LethalLib] Added glizzy to RendLevel
-[Info   : LethalLib] Added glizzy to DineLevel
-[Info   : LethalLib] Added glizzy to OffenseLevel
-[Info   : LethalLib] Added glizzy to TitanLevel
-[Info   : LethalLib] Added Toygun to ExperimentationLevel
-[Info   : LethalLib] Added Toygun to AssuranceLevel
-[Info   : LethalLib] Added Toygun to VowLevel
-[Info   : LethalLib] Added Toygun to CompanyBuildingLevel
-[Info   : LethalLib] Added Toygun to MarchLevel
-[Info   : LethalLib] Added Toygun to RendLevel
-[Info   : LethalLib] Added Toygun to DineLevel
-[Info   : LethalLib] Added Toygun to OffenseLevel
-[Info   : LethalLib] Added Toygun to TitanLevel
-[Info   : LethalLib] Added GremlinEnergy to ExperimentationLevel
-[Info   : LethalLib] Added GremlinEnergy to AssuranceLevel
-[Info   : LethalLib] Added GremlinEnergy to VowLevel
-[Info   : LethalLib] Added GremlinEnergy to CompanyBuildingLevel
-[Info   : LethalLib] Added GremlinEnergy to MarchLevel
-[Info   : LethalLib] Added GremlinEnergy to RendLevel
-[Info   : LethalLib] Added GremlinEnergy to DineLevel
-[Info   : LethalLib] Added GremlinEnergy to OffenseLevel
-[Info   : LethalLib] Added GremlinEnergy to TitanLevel
-[Info   : LethalLib] Added ToyHammer to ExperimentationLevel
-[Info   : LethalLib] Added ToyHammer to AssuranceLevel
-[Info   : LethalLib] Added ToyHammer to VowLevel
-[Info   : LethalLib] Added ToyHammer to CompanyBuildingLevel
-[Info   : LethalLib] Added ToyHammer to MarchLevel
-[Info   : LethalLib] Added ToyHammer to RendLevel
-[Info   : LethalLib] Added ToyHammer to DineLevel
-[Info   : LethalLib] Added ToyHammer to OffenseLevel
-[Info   : LethalLib] Added ToyHammer to TitanLevel
-[Info   : LethalLib] Added GnarpyPlush to ExperimentationLevel
-[Info   : LethalLib] Added GnarpyPlush to AssuranceLevel
-[Info   : LethalLib] Added GnarpyPlush to VowLevel
-[Info   : LethalLib] Added GnarpyPlush to CompanyBuildingLevel
-[Info   : LethalLib] Added GnarpyPlush to MarchLevel
-[Info   : LethalLib] Added GnarpyPlush to RendLevel
-[Info   : LethalLib] Added GnarpyPlush to DineLevel
-[Info   : LethalLib] Added GnarpyPlush to OffenseLevel
-[Info   : LethalLib] Added GnarpyPlush to TitanLevel
-[Info   : LethalLib] Registered scrap item: Arson Plush
-[Info   : LethalLib] Registered scrap item: Cookie Fumo
-[Info   : LethalLib] Registered scrap item: Toimari Plush
-[Info   : LethalLib] Registered scrap item: Hamis Plush
-[Info   : LethalLib] Registered scrap item: Dirty Arson Plush
-[Info   : LethalLib] Registered scrap item: Maxwell
-[Info   : LethalLib] Registered scrap item: Glizzy
-[Info   : LethalLib] Registered scrap item: Revolver
-[Info   : LethalLib] Registered scrap item: Gremlin Can
-[Info   : LethalLib] Registered scrap item: Toy Hammer
-[Info   : LethalLib] Registered scrap item: Gnarpy Plush
-[Info   : LethalLib] LCOuijaBoard registered shop item: Ouija Board
-[Info   : LethalLib] Registered shop item: Rocket Launcher
-[Info   : LethalLib] Registered shop item: Flaregun
-[Info   : LethalLib] Registered shop item: Emergency Flare (ammo)
-[Info   : LethalLib] Registered shop item: Toy Hammer
-[Info   : LethalLib] Registered shop item: Remote Radar
-[Info   : LethalLib] Registered shop item: Utility Belt
-[Info   : LethalLib] Registered shop item: Hacking Tool
-[Info   : LethalLib] Registered shop item: Pinger
-[Info   : LethalLib] Registered item: Dart
-[Info   : LethalLib] Adding 9 items to terminal
-[Info   : LethalLib] Adding Ouija Board to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 100, Item index: 13
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 100, Item index: 13
-[Info   : LethalLib] Generated keyword: ouija-board
-[Info   : LethalLib] Generated item info!!
-[Info   : LethalLib] Adding Rocket Launcher to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 300, Item index: 14
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 300, Item index: 14
-[Info   : LethalLib] Generated keyword: rocket-launcher
-[Info   : LethalLib] Adding Flaregun to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 100, Item index: 15
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 100, Item index: 15
-[Info   : LethalLib] Generated keyword: flaregun
-[Info   : LethalLib] Adding Emergency Flare (ammo) to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 20, Item index: 16
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 20, Item index: 16
-[Info   : LethalLib] Generated keyword: emergency-flare-(ammo)
-[Info   : LethalLib] Adding Toy Hammer to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 15, Item index: 17
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 15, Item index: 17
-[Info   : LethalLib] Generated keyword: toy-hammer
-[Info   : LethalLib] Adding Remote Radar to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 150, Item index: 18
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 150, Item index: 18
-[Info   : LethalLib] Generated keyword: remote-radar
-[Info   : LethalLib] Adding Utility Belt to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 290, Item index: 19
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 290, Item index: 19
-[Info   : LethalLib] Generated keyword: utility-belt
-[Info   : LethalLib] Adding Hacking Tool to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 120, Item index: 20
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 120, Item index: 20
-[Info   : LethalLib] Generated keyword: hacking-tool
-[Info   : LethalLib] Adding Pinger to terminal
-[Info   : LethalLib] Generating buynode2
-[Info   : LethalLib] Item price: 100, Item index: 21
-[Info   : LethalLib] Generating buynode1
-[Info   : LethalLib] Item price: 100, Item index: 21
-[Info   : LethalLib] Generated keyword: pinger
-[Info   :LethalExpansion] Loading scene: SampleSceneRelay
-[Info   :LethalExpansion] Battery Scrap added.
-[Info   :LethalExpansion] Canned Food Scrap added.
-[Info   :LethalExpansion] Matchbox Scrap added.
-[Info   :LethalExpansion] Pills Scrap added.
-[Info   :LethalExpansion] Tape Scrap added.
-[Info   :LethalExpansion] Terminal reset.
-[Warning:LethalExpansion] The given key 'scp-244' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'scp-268' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'scp-1576' was not present in the dictionary.
-[Warning:LethalExpansion] The given key 'scp-2176' was not present in the dictionary.
-[Info   :LethalExpansion] secret labs Moon added.
-[Warning:LethalExpansion] The given key '7Ball ' was not present in the dictionary.
-[Info   :LethalExpansion] CastleGrounds Moon added.
-[Info   :LethalExpansion] TestMoon Moon added.
-[Info   :LethalExpansion] Wateridge Moon added.
-[Info   :LethalExpansion] Battery Scrap patched recursively.
-[Info   :LethalExpansion] Canned Food Scrap patched recursively.
-[Info   :LethalExpansion] Matchbox Scrap patched recursively.
-[Info   :LethalExpansion] Pills Scrap patched recursively.
-[Info   :LethalExpansion] Tape Scrap patched recursively.
-[Info   :LethalExpansion] Moon route price updated.
+[Info   : LethalLib] Adding 10 items to terminal
+[Info   :LethalLevelLoader] Creating ExtendedLevels For Vanilla SelectableLevels
+[Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedLevels:
+1. 41 Experimentation (Vanilla)
+2. 220 Assurance (Vanilla)
+3. 56 Vow (Vanilla)
+4. 71 Gordion (Vanilla)
+5. 61 March (Vanilla)
+6. 85 Rend (Vanilla)
+7. 7 Dine (Vanilla)
+8. 21 Offense (Vanilla)
+9. 8 Titan (Vanilla)
+10. Secret Labs (Custom)
+
+[Info   :LethalLevelLoader] LethalLevelLoader Loaded The Following ExtendedDungeonFlows:
+1. Facility (Level1Flow) (Vanilla)
+2. Haunted Mansion (Level2Flow) (Vanilla)
+3. Facility (Level1FlowExtraLarge) (Vanilla)
+4. SCP Foundation (SCPFlow) (Custom)
+
 [Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
 [Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
@@ -486,60 +257,47 @@ ________________
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
-[Info   : LethalLib] Diagetic mixer is Diagetic
-[Info   : LethalLib] Found 25 prefabs to fix
-[Info   : LethalLib] Set mixer group for TeleporterTrap in TeleporterTrap to Diagetic:SFX
-[Info   : LethalLib] Set mixer group for Idle in TeleporterTrap to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Boomba in Boomba to Diagetic:Master
-[Info   : LethalLib] Set mixer group for FarAudio in Boomba to Diagetic:SFX
-[Info   : LethalLib] Set mixer group for Idle in Boomba to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Dartboard to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Sign to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Rug2 to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PlacementCollider in Rug to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Dart in Dart to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PingTool in PingTool to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HackingTool in HackingTool to Diagetic:Master
-[Info   : LethalLib] Set mixer group for PouchItem in PouchItem to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HandheldRadar in HandheldRadar to Diagetic:Master
-[Info   : LethalLib] Set mixer group for FlaregunAmmo in FlaregunAmmo to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Flaregun in Flaregun to Diagetic:Master
-[Info   : LethalLib] Set mixer group for RocketLauncher in RocketLauncher to Diagetic:Master
-[Info   : LethalLib] Set mixer group for GnarpyPlush in GnarpyPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ToyHammer in ToyHammer to Diagetic:Master
-[Info   : LethalLib] Set mixer group for GremlinEnergy in GremlinEnergy to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Toygun in Toygun to Diagetic:Master
-[Info   : LethalLib] Set mixer group for glizzy in glizzy to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Dingus in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Music in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for Purr in Dingus to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ArsonPlushDirty in ArsonPlushDirty to Diagetic:Master
-[Info   : LethalLib] Set mixer group for HamisPlush in HamisPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ToimariPlush in ToimariPlush to Diagetic:Master
-[Info   : LethalLib] Set mixer group for CookieFumo in CookieFumo to Diagetic:Master
-[Info   : LethalLib] Set mixer group for ArsonPlush in ArsonPlush to Diagetic:Master
-[Info   :LethalExpansion] [sync]1|0>-1|hostweathers=3&4&-1&-1&-1&5&5&1&-1&1&4&-1&-1[sync]
-[Info   :LethalExpansion] [sync]1|0>-1|hostweathers=3&4&-1&-1&-1&5&5&1&-1&1&4&-1&-1[sync]
+[Info   : LethalLib] Found 27 prefabs to fix
 [Info   :TooManyEmotes] [SaveManager] Loading game values.
 [Info   :TooManyEmotes] Resetting unlocked emotes.
 [Info   :TooManyEmotes] Loading 0 emotes for player: Muzoff
 [Info   :TooManyEmotes] Loading 100 emote credits for player: Muzoff
-[Info   :TooManyEmotes] Loading 0 emotes for player: KARA
-[Info   :TooManyEmotes] Loading 100 emote credits for player: KARA
 [Info   :TooManyEmotes] Loaded 8 unlockable emotes.
 [Info   :TooManyEmotes] Loaded CurrentEmoteCredits: 100
-[Info   :TooManyEmotes] Loaded Seed: 668990311
-[Info   :TooManyEmotes] Rotating emote selection in store. Seed: 668990311
-[Info   :TooManyEmotes] Rotate new emote value: 0,139904011571735
-[Info   :TooManyEmotes] Rotate new emote value: 0,902885601344931
-[Info   :TooManyEmotes] Rotate new emote value: 0,663786152221163
-[Info   :TooManyEmotes] Rotate new emote value: 0,371350729545276
-[Info   :TooManyEmotes] Rotate new emote value: 0,86344808007751
-[Info   :TooManyEmotes] Rotate new emote value: 0,302669661726183
-[Error  :MetalPipeSFX.HornMoan] Error loading sounds: G:\Lethal Company\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
-HTTP/1.1 404 Not Found
-[Error  :MetalPipeSFX.HornMoan] Error loading sounds: G:\Lethal Company\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
-HTTP/1.1 404 Not Found
+[Info   :TooManyEmotes] Loaded Seed: 960592697
+[Info   :TooManyEmotes] Rotating emote selection in store. Seed: 960592697
+[Info   :TooManyEmotes] Rotate new emote value: 0,264254824847102
+[Info   :TooManyEmotes] Rotate new emote value: 0,711493919003519
+[Info   :TooManyEmotes] Rotate new emote value: 0,624366250179879
+[Info   :TooManyEmotes] Rotate new emote value: 0,451420383272423
+[Info   :TooManyEmotes] Rotate new emote value: 0,892236253196484
+[Info   :TooManyEmotes] Rotate new emote value: 0,0894442364058663
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Flowerman!
+[Info   :MaskedEnemyRework] Found Masked!
+[Warning:LethalLevelLoader] Disabling LethalLib Dungeon.RoundManager_Start() Function To Prevent Conflicts
+[Warning:LethalLevelLoader] Asset Restoration Failed, Null Reference Found!
+[Warning:LethalLevelLoader] Audio Restoration Warning: ExitRoomReverb Has Missing ReverbPreset
+[Warning:LethalLevelLoader] Audio Restoration Warning: ExitRoomReverbR Has Missing ReverbPreset
+[Warning:LethalLevelLoader] Audio Restoration Warning: ExitRoomReverbL Has Missing ReverbPreset
+[Warning:LethalLevelLoader] Audio Restoration Warning: LargeRoomReverb Has Missing ReverbPreset
+[Warning:LethalLevelLoader] routeNode Is Missing! Using internal value!
+[Info   :LethalLevelLoader] Creating ExtendedLevelGroups
+[Info   :LethalLevelLoader] 41 Experimentation
+[Info   :LethalLevelLoader] 220 Assurance
+[Info   :LethalLevelLoader] 56 Vow
+[Info   :LethalLevelLoader] 21 Offense
+[Info   :LethalLevelLoader] 61 March
+[Info   :LethalLevelLoader] 85 Rend
+[Info   :LethalLevelLoader] 7 Dine
+[Info   :LethalLevelLoader] 8 Titan
 [Info   :TooManyEmotes] Initializing local player.
 [Warning:TooManyEmotes] Converting animator controller to override for player: Player
 [Warning:TooManyEmotes] Converting animator controller to override for player: Player
@@ -547,245 +305,9 @@ HTTP/1.1 404 Not Found
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SignEmoteText to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (G:/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : MoreItems] Maximum amount of items that can be saved set to 999 just before saving.
+[Info   :TooManyEmotes] [SaveManager] Saving game values.
+[Info   :TooManyEmotes] Saving 8 emotes for player: Muzoff
+[Info   :TooManyEmotes] Saving 100 emote credits for player: Muzoff
+[Info   :TooManyEmotes] Saved Seed: 960592697
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
